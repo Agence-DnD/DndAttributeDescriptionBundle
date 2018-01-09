@@ -1,0 +1,10 @@
+Dnd\Bundle\AttributeDescriptionBundle\Entity\Attribute:
+    type: entity
+    table: pim_catalog_attribute
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    repositoryClass: PimEnterprise\Bundle\CatalogBundle\Doctrine\ORM\Repository\AttributeRepository
+    uniqueConstraints:
+        searchunique_idx:
+            columns:
+                - code
+                - entity_type

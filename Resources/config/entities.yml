@@ -1,0 +1,3 @@
+parameters:
+    pim_catalog.entity.attribute.class: Dnd\Bundle\AttributeDescriptionBundle\Entity\Attribute
+    pim_catalog.entity.attribute_translation.class: Dnd\Bundle\AttributeDescriptionBundle\Entity\AttributeTranslation

@@ -1,0 +1,14 @@
+config:
+    config:
+        pim/controller-registry:
+            defaultController:
+                module: pim/controller/template
+            controllers:
+                pim_enrich_attribute_create:
+                    module: dnd/controller/attribute/create
+    paths:
+        dnd/product-edit-form/attributes/description: dndattributedescription/js/product/form/attributes/description
+        dnd/attribute-edit-form/descriptions/translation: dndattributedescription/js/attribute/form/descriptions/translation
+        dnd/controller/attribute/create: dndattributedescription/js/controller/attribute/create
+        dnd/template/form/properties/translation: dndattributedescription/templates/form/properties/translation.html
+

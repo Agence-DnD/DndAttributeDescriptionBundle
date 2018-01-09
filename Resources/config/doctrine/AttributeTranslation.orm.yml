@@ -1,0 +1,13 @@
+Dnd\Bundle\AttributeDescriptionBundle\Entity\AttributeTranslation:
+    type: entity
+    table: pim_catalog_attribute_translation
+    changeTrackingPolicy: DEFERRED_EXPLICIT
+    uniqueConstraints:
+        locale_foreign_key_idx:
+            columns:
+                - locale
+                - foreign_key
+    fields:
+          description:
+              type: text
+              nullable: true

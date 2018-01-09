@@ -1,0 +1,3 @@
+parameters:
+    pim_connector.array_converter.standard_to_flat.attribute.class:  Dnd\Bundle\AttributeDescriptionBundle\ArrayConverter\StandardToFlat\Attribute
+    pim_connector.array_converter.flat_to_standard.attribute.class: Dnd\Bundle\AttributeDescriptionBundle\ArrayConverter\FlatToStandard\Attribute

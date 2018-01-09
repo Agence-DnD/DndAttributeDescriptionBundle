@@ -1,0 +1,22 @@
+extensions:
+    pim-attribute-create-form-description-tab:
+        module: pim/common/tab
+        parent: pim-attribute-create-form-form-tabs
+        targetZone: container
+        position: 120
+        config:
+            label: pim_enrich.form.attribute.tab.descriptions.title
+
+    pim-attribute-create-form-description-container:
+        module: pim/common/simple-view
+        parent: pim-attribute-create-form-description-tab
+        targetZone: self
+        position: 110
+        config:
+            template: pim/template/common/form-container
+
+    pim-attribute-create-form-description-translation:
+        module: dnd/attribute-edit-form/descriptions/translation
+        parent: pim-attribute-create-form-description-container
+        targetZone: form-container
+        position: 110

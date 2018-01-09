@@ -1,0 +1,6 @@
+extensions:
+    pim-product-edit-form-attribute-description:
+        module: dnd/product-edit-form/attributes/description
+        parent: pim-product-edit-form-attributes
+        targetZone: self
+        position: 100

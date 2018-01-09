@@ -1,0 +1,3 @@
+parameters:
+    pim_catalog.updater.attribute.class: Dnd\Bundle\AttributeDescriptionBundle\Updater\AttributeUpdater
+    pim_localization.updater.translatable.class: Dnd\Bundle\AttributeDescriptionBundle\Updater\TranslatableUpdater

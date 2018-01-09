@@ -1,0 +1,3 @@
+parameters:
+    pim_catalog.normalizer.standard.attribute.class: Dnd\Bundle\AttributeDescriptionBundle\Normalizer\Standard\AttributeNormalizer
+    pim_catalog.normalizer.standard.translation.class: Dnd\Bundle\AttributeDescriptionBundle\Normalizer\Standard\TranslationNormalizer
