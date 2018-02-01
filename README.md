@@ -46,6 +46,23 @@ Enable the bundle in ```app/AppKernel.php``` file, in the ```registerBundles``` 
 ```php
 $bundles[] = new Dnd\Bundle\AttributeDescriptionBundle\DndAttributeDescriptionBundle();
 ```
+
+Then you need to override your Attribute entity in ```app/config/config.yml``` (at the end of the file):
+```php
+akeneo_storage_utils:
+    mapping_overrides:
+        -
+            original: Pim\Bundle\CatalogBundle\Entity\Attribute
+            override: Dnd\Bundle\AttributeDescriptionBundle\Entity\Attribute
+        -
+            original: Pim\Bundle\CatalogBundle\Entity\AttributeTranslation
+            override: Dnd\Bundle\AttributeDescriptionBundle\Entity\AttributeTranslation
+```
+And enter the following command line:
+```console
+$php bin/console doctrine:schema:update --force
+```
+
 ## Configuration
 
 Just create/edit an attribute, a new tab has appeared and you can fill in your attribute description for each locale.
