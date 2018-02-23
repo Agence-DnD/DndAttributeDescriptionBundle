@@ -13,7 +13,7 @@ This connector improve your workflow by adding descriptions to your attributes.
 
 | AttributeDescriptionBundle   | Akeneo PIM Community Edition |
 |:----------------------------:|:----------------------------:|
-| v1.0.*                       | v2.0.*                       |
+| v1.0.*                       | v2.*                         |
 
 ## Connector installation on Akeneo PIM
 
