@@ -13,6 +13,10 @@ define([
             getNewAttribute: function (type) {
                 var attribute = BaseController.prototype.getNewAttribute.apply(this, arguments);
 
+                if ('pim_assets_collection' === type) {
+                    attribute.reference_data_name = 'assets';
+                }
+
                 attribute.descriptions = {};
 
                 return attribute;
