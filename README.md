@@ -11,9 +11,10 @@ This connector improve your workflow by adding descriptions to your attributes.
 
 ## Requirements
 
-| AttributeDescriptionBundle   | Akeneo PIM Community Edition |
-|:----------------------------:|:----------------------------:|
-| v1.0.*                       | v2.*                         |
+| AttributeDescriptionBundle     | Akeneo PIM Community Edition | Akeneo PIM Enterprise Edition |
+|:------------------------------:|:----------------------------:|:-----------------------------:|
+| v1.0.*                         | v2.*                         |                               |
+| v1.1.*                         | v2.*                         | v2.*                          |
 
 ## Connector installation on Akeneo PIM
 
