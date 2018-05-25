@@ -34,7 +34,7 @@ In your ```composer.json```, add the following code dependending on your Akeneo 
 
 ```json
 {
-    "agencednd/attribute-description-bundle": "1.0.*"
+    "agencednd/attribute-description-bundle": "1.1.*"
 }
 ```
 
