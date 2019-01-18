@@ -71,4 +71,4 @@ Just create/edit an attribute, a new tab has appeared and you can fill in your a
 To import attribute description you need to add a new column to your classic attribute import file : description-{locale_code} (e.g: description-en_US).
 
 ## About us
-Founded by lovers of innovation and design, [Agence Dn'D] (http://www.dnd.fr) assists companies in the creation and development of customized digital (open source) solutions for web and E-commerce since 2004.
+Founded by lovers of innovation and design, [Agence Dn'D](https://www.dnd.fr) assists companies in the creation and development of customized digital (open source) solutions for web and E-commerce since 2004.
